@@ -1,28 +1,28 @@
 class Zenv < Formula
   desc "Python virtual environment manager for HPC and development systems"
   homepage "https://github.com/anoopkcn/zenv"
-  version "0.30.0"
+  version "0.31.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/anoopkcn/zenv/releases/download/v0.30.0/zenv-aarch64-macos.tar.gz"
-      sha256 "fd930dcec49f149d8254a69f0ed0693c0397c187647898370c6c22244a59ab0d"
+      url "https://github.com/anoopkcn/zenv/releases/download/v0.31.0/zenv-aarch64-macos.tar.gz"
+      sha256 "f74ad44184b47d35e3a780fecc5499aa0f56ee61443d48c1206a366f6b00e9c7"
     end
     on_intel do
-      url "https://github.com/anoopkcn/zenv/releases/download/v0.30.0/zenv-x86_64-macos.tar.gz"
-      sha256 "f06d53824387a50e46a18ffb424a8aac7086b873a20d7135c83fdcdaf6741626"
+      url "https://github.com/anoopkcn/zenv/releases/download/v0.31.0/zenv-x86_64-macos.tar.gz"
+      sha256 "84b59ab04c117a3bc7ae3ea1515b8810aa7a8c5a11d0a058be10d6d674e9cc03"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/anoopkcn/zenv/releases/download/v0.30.0/zenv-aarch64-linux-musl.tar.gz"
-      sha256 "ca39ecc5378b7c1b38fcf52abc2870c718c734889daba3b48727c77424eeb6d0"
+      url "https://github.com/anoopkcn/zenv/releases/download/v0.31.0/zenv-aarch64-linux-musl.tar.gz"
+      sha256 "c8d7b4b7c8feae0d5add6473569206fb96237742c00bbaeeb9b0867126b515ea"
     end
     on_intel do
-      url "https://github.com/anoopkcn/zenv/releases/download/v0.30.0/zenv-x86_64-linux-musl.tar.gz"
-      sha256 "da6f5841911644393451a35cc0109ddbe0a2560af732ba3a6c011e28e03c3dcf"
+      url "https://github.com/anoopkcn/zenv/releases/download/v0.31.0/zenv-x86_64-linux-musl.tar.gz"
+      sha256 "2830cfb30266d5d08297a4f20e584b11e41f64dd262da6b6eb4f03a5eb7e4f68"
     end
   end
 
